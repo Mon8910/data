@@ -1,20 +1,20 @@
-import 'package:add_page/add_data.dart';
-import 'package:add_page/data_show.dart';
-import 'package:add_page/show_data.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_stripe/flutter_stripe.dart';
+import 'package:payment_app/Features/payment/presentaion/view/payment_screen.dart';
+import 'package:payment_app/core/utilies/api_keys.dart';
 
 void main() {
-  runApp(const HomeScreen());
+  Stripe.publishableKey=ApiKeys.puplishKey;
+  runApp(const MyAppPayment());
 }
 
-class HomeScreen extends StatelessWidget{
-  const HomeScreen({super.key});
+class MyAppPayment extends StatelessWidget {
+  const MyAppPayment({super.key});
 
   @override
   Widget build(BuildContext context) {
-   return MaterialApp(
-    home:Show() ,
-   );
+    return const MaterialApp(
+      home: PaymentScreen(),
+    );
   }
-
 }

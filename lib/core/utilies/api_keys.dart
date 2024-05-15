@@ -1,0 +1,4 @@
+class ApiKeys {
+  static const String secretTokens='sk_test_51PEdH6LjZrVwrQz1VwTsb8re0uOdx0MgCfT1meeXmXa2kvYRwWROzaoo8gquqr1OOYtUy14mNKxYE5ZtOz0rn66R00TSy790s9';
+  static const String puplishKey='pk_test_51PEdH6LjZrVwrQz1WeHe9tPgiyUBMDATL8GeTe5P9ZNthoVuq3vG3wEt8CRpGVMcA3pFhLqJoFvsEvFLqhAv2619005Ox0Nwyr';
+}

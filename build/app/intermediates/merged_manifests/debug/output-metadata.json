@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.add_page",
+  "applicationId": "com.example.payment_app",
   "variantName": "debug",
   "elements": [
     {
